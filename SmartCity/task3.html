@@ -7,7 +7,7 @@
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
             <a-assets>
-                <video id="helmet_sound" src="assets/Polgar_Jeno.mp3" response-type="arraybuffer" autoplay="true" loop></video>
+                <video id="Polgar_Jeno" src="assets/Polgar_Jeno.mp3" response-type="arraybuffer" autoplay="true" loop></video>
                 <a-asset-item id="helmet" src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/KhronosGroup/glTF-Sample-Models/master/2.0/SciFiHelmet/glTF/SciFiHelmet.gltf"></a-asset-item>
             </a-assets>
 
@@ -16,7 +16,7 @@
                 <!-- raw.githack.com serves raw files directly from GitHub,
                 with proper Content-Type headers -->
                 <!-- first entity: reference to the above glTF model -->
-                <a-video  src ="#helmet_sound" width="16" height="9" position="0 0 -20">
+                <a-video  src ="#Polgar_Jeno" width="16" height="9" position="0 0 0">
                 </a-video>
 
                 <!-- second entity: reference to the above audio -->
