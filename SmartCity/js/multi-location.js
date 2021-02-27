@@ -11,9 +11,19 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Pokemon 1',
+            name: 'Magnemite',
             location: {
                  lat: 47.4685776,
+                 lng: 19.0175722,
+            },
+			name: 'Articuno',
+            location: {
+                 lat: 100.4685776,
+                 lng: 19.0175722,
+            },
+			name: 'Dragonite',
+            location: {
+                 lat: 10.4685776,
                  lng: 19.0175722,
             },
 		
