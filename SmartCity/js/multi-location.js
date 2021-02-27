@@ -11,11 +11,12 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Articuno',
+            name: 'Pokemon 1',
             location: {
                  lat: 47.4685776,
                  lng: 19.0175722,
             },
+		
         },
     ];
 }
@@ -41,7 +42,7 @@ var models = [
     },
 ];
 
-var modelIndex = 0;
+var modelIndex = 2;
 var setModel = function (model, entity) {
     if (model.scale) {
         entity.setAttribute('scale', model.scale);
