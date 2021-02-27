@@ -13,18 +13,18 @@ function staticLoadPlaces() {
         {
             name: 'Magnemite',
             location: {
-                 lat: 61.4685776,
+                 lat: 47.4685776,
                  lng: 19.0175722,
             },
 			name: 'Articuno',
             location: {
-                 lat: 100.4685776,
-                 lng: 19.0175722,
+                 lat: 47.466885,
+                 lng: 19.016216,
             },
 			name: 'Dragonite',
             location: {
-                 lat: 10.4685776,
-                 lng: 19.0175722,
+                 lat: 47.468954,
+                 lng: 19.013755,
             },
 		
         },
