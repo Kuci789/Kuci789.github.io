@@ -42,7 +42,7 @@ var models = [
     },
 ];
 
-var modelIndex = 2;
+var modelIndex = 0;
 var setModel = function (model, entity) {
     if (model.scale) {
         entity.setAttribute('scale', model.scale);
